@@ -1,0 +1,12 @@
+{
+  "domain": "follower",
+  "name": "Follower",
+  "documentation": "http://google.com",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "http://google.com",
+  "version": "0.0.0",
+  "config_flow": false,
+  "codeowners": [
+    "@dlashua"
+  ]
+}

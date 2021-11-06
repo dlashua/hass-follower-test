@@ -7,3 +7,14 @@ logger:
 
 # If you need to debug uncomment the line below (doc: https://www.home-assistant.io/integrations/debugpy/)
 # debugpy:
+
+
+follower:
+  - name: thing1
+    leader: input_boolean.test_1
+    follower: input_boolean.test_2
+
+  # - name: thing2
+  #   leader: input_boolean.test_3
+  #   follower: input_boolean.test_4
+

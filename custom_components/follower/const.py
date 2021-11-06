@@ -1,29 +1,20 @@
 """Constants for integration_blueprint."""
 # Base component constants
-NAME = "Integration blueprint"
-DOMAIN = "integration_blueprint"
+NAME = "Follower"
+DOMAIN = "follower"
 DOMAIN_DATA = f"{DOMAIN}_data"
 VERSION = "0.0.1"
-ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
-ISSUE_URL = "https://github.com/custom-components/integration_blueprint/issues"
-
-# Icons
-ICON = "mdi:format-quote-close"
+ISSUE_URL = "http://google.com"
 
 # Device classes
 BINARY_SENSOR_DEVICE_CLASS = "connectivity"
 
 # Platforms
 BINARY_SENSOR = "binary_sensor"
-SENSOR = "sensor"
-SWITCH = "switch"
-PLATFORMS = [BINARY_SENSOR, SENSOR, SWITCH]
+PLATFORMS = [BINARY_SENSOR]
 
-
-# Configuration and options
-CONF_ENABLED = "enabled"
-CONF_USERNAME = "username"
-CONF_PASSWORD = "password"
+# Services
+SERVICE_RELOAD = "reload"
 
 # Defaults
 DEFAULT_NAME = DOMAIN

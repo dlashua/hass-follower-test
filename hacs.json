@@ -1,10 +1,8 @@
 {
-    "name": "Integration blueprint",
-    "hacs": "1.6.0",
+    "name": "Follower",
+    "hacs": "0.0.1",
     "domains": [
         "binary_sensor",
-        "sensor",
-        "switch"
     ],
     "homeassistant": "0.118.0"
 }
